@@ -142,9 +142,9 @@
 @if(Cart::subtotal() > 0)
                                         <div class="box-footer">
                                             <div class="pull-left">
-<!--
+                                            <!--
                                                 <button type="submit" class="btn btn-template-main button_blue" name="ot" value="cc"> 信用卡付款 </button>
--->
+                                                -->
 												<button type="submit" class="btn btn-template-main button_blue" name="ot" value="atm"> ATM轉帳 </button>
 
                                             </div>
