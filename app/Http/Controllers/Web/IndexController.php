@@ -120,7 +120,7 @@ class IndexController extends Controller
 		}
 		
 		$subMenu = PSubmenu::orderBy('weights','desc')->get();
-        $data = ProductData::where('IsUse', '=', '1')->where('enable', '=', 'Y')->whereIn('productID', $temp)->get();
+        $data = ProductData::where('IsUse', '=', '1')->where('enable', '=', 'Y')->whereIn('productID', $temp)->orderBy('w_weights', 'desc')->get();
         return view('web.productList',['p_list'=>$data,'submenu'=>$subMenu,'submain'=>$subMain]);
     }
     public function introduce(Request $request)
