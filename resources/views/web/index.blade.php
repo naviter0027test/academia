@@ -114,6 +114,16 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row clearfix">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="footer-copyright">
+                            <p>注意事項!!</p>
+                            <p>本網站訂購流程及運費僅限本島適用，海外買家請另聯繫Gmail或致電本中心</p>
+                            <p>nmmba2016@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </section>
