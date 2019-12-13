@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: MEllan;
+    src: url(../../fonts/MEllan-HK-XboldCuYaLanFan-1.ttf);
+}
 
 a:hover, a:active{
 	color:#08c2f3;
@@ -204,6 +207,7 @@ p,a,span,ul,li{
 .top-toolbar .top-contact-info ul li a { color: white; }
 .top-toolbar .top-contact-info ul li.toolbar-list i{color:#000;}
 .top-toolbar .top-contact-info ul li.toolbar-list-orange i{color:#ff8a00;}
+.top-toolbar .top-contact-info ul li.toolbar-list-orange a{font-family: Microsoft JhengHei;}
 .top-toolbar .top-contact-info ul li.toolbar-list-orange a,
 .top-toolbar .top-contact-info ul li.toolbar-list a {display: inline;}
 .top-toolbar .top-contact-info ul button.toolbar-new-listing{background-image:linear-gradient(#9e9e9e,#4f4f4f, #000);color:#fff;padding:1px 15px;}
@@ -224,6 +228,7 @@ p,a,span,ul,li{
 .nav-wrapper{/*background:#fff;*/}
 .wsmenu-list li a {
     color: white;
+    font-family: MEllan;
 }
 .wsmenu-list > li > a.active {
     text-decoration: none;

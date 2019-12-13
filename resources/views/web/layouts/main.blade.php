@@ -159,8 +159,9 @@
             <div class="row clearfix">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="footer-copyright">
-                        <p>機關地址：屏東縣車城鄉後灣村後灣路２號</p>
-                        <p>電話：08-8825001  分機：5117或5119   (不含例假日)   ｜ 傳真：08-8824860</p>
+                        <p><i class="glyphicon glyphicon-phone-alt"></i> 08-8825001  分機：5117或5119   (不含例假日)   ｜ 傳真：08-8824860</p>
+                        <p><i class="glyphicon glyphicon-envelope"></i> nmmba2016@gmail.com <i class="glyphicon glyphicon-home"></i> 屏東縣車城鄉後灣村後灣路２號</p>
+                        <p>本網站訂購流程及運費僅限本島適用，海外買家請另聯繫Gmail或致電本中心</p>
                     </div>
                 </div>
             </div>

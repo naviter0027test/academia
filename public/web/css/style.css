@@ -310,7 +310,7 @@ a:focus {
 --------------------------------------------------------------------------------------------------------------------------------
 */
 
-.logo{ width: 145%; }
+.logo{ width: 120%; opacity: 0.6;}
 .smallogo img{margin:0 auto;}
 .nav-height2 .logo{margin-top:22px;}
 .logo a{display:inline-block;}
