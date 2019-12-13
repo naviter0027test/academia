@@ -64,7 +64,7 @@
     <link rel="stylesheet" href="/magnific/dist/magnific-popup.css">
     @yield('css')
 </head>
-<body>
+<body class='background1'>
 <div class="preloader"><span class="preloader-gif"></span></div>
 <div class="theme-wrap clearfix">
     <!--================================responsive log and menu==========================================-->
@@ -79,12 +79,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-12 col-xs-12 pull-left">
-                        <div class="logo pull-left"><a href="/" title="Responsive Slide Menus"><img src="/web/images/logo.png" alt="" /></a></div>
+                        <div class="logo pull-left"><a href="/" title="Responsive Slide Menus"><img src="/web/images/20191211/logo_1.jpg" alt="" /></a></div>
                     </div>
                     <div class="col-md-6 col-sm-12 col-xs-12 pull-right">
                         <div class="top-contact-info">
                             <ul>
-                                <li class="toolbar-list"><i class="glyphicon glyphicon-stop"></i><a href="https://www.nmmba.gov.tw/"> 海生館網站</a></li>
+                                <li class="toolbar-list-orange"><i class="glyphicon glyphicon-stop"></i><a href="https://www.nmmba.gov.tw/"> 海生館網站</a></li>
 								@if(!empty(session('user_id')))
 									<li class="toolbar-list"><i class="glyphicon glyphicon-stop"></i>{{session('name')}} 歡迎您</li>
 								@endif
@@ -122,7 +122,7 @@
                                         </table>
                                     </div>
                                 </li>
-                                <li class="toolbar-list"><i class="glyphicon glyphicon-stop"></i><a href="/contact"> 聯絡我們</a></li>
+                                <li class="toolbar-list-orange"><i class="glyphicon glyphicon-stop"></i><a href="/contact"> 聯絡我們</a></li>
                             </ul>
                             <ul>
                                 <input type="text" id="searchText"><button class="toolbar-new-listing" onClick="search()"> <i class="glyphicon glyphicon-search"></i> Search</button>

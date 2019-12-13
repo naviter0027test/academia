@@ -17,8 +17,8 @@ p,a,span,ul,li{
 	body {
 	  background-image   : url("../../images/left.png"),
 						   url("../../images/right.png"),
-						   url("../../images/jellyfish.png"),
-						   url("../../images/bg.jpg");
+						   url("../../images/jellyfish.png");
+						   /*url("../../images/bg.jpg");*/
 
 	  background-repeat  : no-repeat,
 						   no-repeat,
@@ -30,6 +30,14 @@ p,a,span,ul,li{
 						   center left,
 						   bottom left;
 	}
+
+	body.background1 {
+            background-image: url("../../images/20191211/gackground20191211.jpg");
+            -moz-background-size:cover;
+            -webkit-background-size:cover;
+            -o-background-size:cover;
+            background-size:cover;
+        }
 }
 /*
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -58,7 +66,8 @@ p,a,span,ul,li{
 .black-1 p{color:#3e3e3e;}
 
 /* bg colors */
-.bgservice{background: #fff9da; border: 6px solid white;}
+.bgservice{ opacity: 0.7; }
+.bgservice:hover { opacity: 0.9; }
 .bgwhite{background:#fff;}
 .bgblue-1{background:#08c2f3;}
 .bgblue-2{background:#23ccf9;}
@@ -192,6 +201,7 @@ p,a,span,ul,li{
 .top-toolbar .top-contact-info ul li{}
 .top-toolbar .top-contact-info ul li.toolbar-email{border-right:1px solid #eee;}
 .top-toolbar .top-contact-info ul li.toolbar-list{}
+.top-toolbar .top-contact-info ul li a { color: white; }
 .top-toolbar .top-contact-info ul li.toolbar-list i{color:#000;}
 .top-toolbar .top-contact-info ul li.toolbar-list-orange i{color:#ff8a00;}
 .top-toolbar .top-contact-info ul li.toolbar-list-orange a,
@@ -212,19 +222,23 @@ p,a,span,ul,li{
 --------------------------------------------------------------------------------------------------------------------------------
 */
 .nav-wrapper{/*background:#fff;*/}
+.wsmenu-list li a {
+    color: white;
+}
 .wsmenu-list > li > a.active {
     text-decoration: none;
-	color:#08c2f3;
+    color:#08c2f3;
 }
 .wsmenu-list li a:hover:before,
 .wsmenu-list li a.active:before,
 .wsmenu-list li a:focus:before{ 
-	color:#08c2f3;
-	}
+    /*color:#08c2f3;*/
+    color: white;
+}
 .wsmenu-list li a:hover,
 .wsmenu-list li a:focus{ 
-	color:#08c2f3;
-	}
+    color:#08c2f3;
+}
 	
 /*
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -585,7 +599,7 @@ p,a,span,ul,li{
 .footer-intro a{color:#08c2f3;}
 .footer-recent-post-caption p.date{color:#fff;}
 /*.footer-bottom{background:#151515;}*/
-.footer-copyright p a{color:#08c2f3;}
+.footer-copyright p a{color:white;}
 
 
 /*

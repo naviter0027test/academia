@@ -310,7 +310,7 @@ a:focus {
 --------------------------------------------------------------------------------------------------------------------------------
 */
 
-.logo{padding:5px 0;}
+.logo{ width: 145%; }
 .smallogo img{margin:0 auto;}
 .nav-height2 .logo{margin-top:22px;}
 .logo a{display:inline-block;}
@@ -590,6 +590,9 @@ hr {background:url("../images/line.png") no-repeat top left;height:10px;margin:0
 @media screen and (min-width:1200px){
 	.online-count{width: 17%; float: left; margin-top: 50px;margin-bottom:80px;}
 }
+.index-buttom-link { text-align: center; padding-left: 20%; }
+.online-count2 { margin-top: 20px; text-align: center;}
+.online-count2 span { font-size: 18px; color: white; }
 .online-count span {font-size: 18px; color: #275bb9;font-weight:bolder;}
 .services-wrap{overflow:hidden;}
 .service-tag{left: 0; position: absolute;right: 0;top: -125px;}
@@ -1386,7 +1389,7 @@ ul#submenu1 li a{font-size:16px}
 .footer{}
 
 .footer-copyright{}
-.footer-copyright p{text-align:center;color:blue;font-size: large;line-height: 22px;}
+.footer-copyright p{text-align:center;color:white;font-size: large;line-height: 22px;}
 .footer-copyright p a{display:inline-block;}
 
 
