@@ -207,6 +207,7 @@ p,a,span,ul,li{
 .top-toolbar .top-contact-info ul li a { color: white; }
 .top-toolbar .top-contact-info ul li.toolbar-list i{color:#000;}
 .top-toolbar .top-contact-info ul li.toolbar-list-orange i{color:#ff8a00;}
+.top-toolbar .top-contact-info ul li.toolbar-list-orange {color:white;}
 .top-toolbar .top-contact-info ul li.toolbar-list-orange a{font-family: Microsoft JhengHei;}
 .top-toolbar .top-contact-info ul li.toolbar-list-orange a,
 .top-toolbar .top-contact-info ul li.toolbar-list a {display: inline;}
@@ -491,9 +492,9 @@ p,a,span,ul,li{
 .sidebar-wrap{}
 .sidebar .sidebar-wrap a:hover{#444;}
 .sidebar .sidebar-wrap a:hover span{#444;}
-.sidebar-widget{background:transparent;}
+.sidebar-widget{background:transparent; }
 .sidebar-widget-title{}
-.sidebar-widget-title h5{}
+.sidebar-widget-title h5{ font-weight: normal; color: #ffcc00; font-family: MEllan;}
 .sidebar-widget-title h5 span{}
 .sidebar-widget-content{}
 
@@ -543,7 +544,7 @@ p,a,span,ul,li{
 }
 /* sidebar category list widget */
 
-.sidebar .sidebar-category-widget-wrap ul li a:hover{color:#153eaf;margin-top:-5px;margin-bottom:5px;font-weight:600;}
+.sidebar .sidebar-category-widget-wrap ul li a:hover{color: white; font-family: MEllan;margin-top:-5px;margin-bottom:5px;font-weight:600;}
 .sidebar .sidebar-category-widget-wrap ul li a:hover span{color:#444;}
 
 /* sidebar location list widget */
@@ -663,3 +664,5 @@ p,a,span,ul,li{
 .feature-field{background:#f7fbfc;border:1px solid #deeef2;}
 .feature-field i{}
 .feature-field p{}
+
+#cartContent {color: rgb(123,104,238);}

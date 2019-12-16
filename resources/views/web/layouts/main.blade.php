@@ -86,7 +86,7 @@
                             <ul>
                                 <li class="toolbar-list-orange"><i class="glyphicon glyphicon-stop"></i><a href="https://www.nmmba.gov.tw/"> 海生館網站</a></li>
 								@if(!empty(session('user_id')))
-									<li class="toolbar-list"><i class="glyphicon glyphicon-stop"></i>{{session('name')}} 歡迎您</li>
+									<li class="toolbar-list-orange"><i class="glyphicon glyphicon-stop"></i>{{session('name')}} 歡迎您</li>
 								@endif
                                 <li class="toolbar-list-orange"><i class="glyphicon glyphicon-stop"></i>
                                     @if(!empty(session('user_id')))

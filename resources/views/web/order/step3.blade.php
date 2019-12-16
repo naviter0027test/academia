@@ -120,7 +120,7 @@
                                             </tr>
                                             </tfoot>
                                         </table>
-                                        <div class="margin-top-20 margin-bottom-20"><img src="/web/images/dolphin.svg" /></div>
+                                        <div class="margin-top-20 margin-bottom-20"><img src="/web/images/20191211/bow.jpg" /></div>
                                         <div>
                                             <svg width="100%" height="100">
                                                 <text text-anchor="middle" x="50%" y="50%" class="text">

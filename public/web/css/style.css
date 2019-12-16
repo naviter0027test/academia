@@ -277,6 +277,7 @@ a:focus {
 .page-title h2{word-spacing:15px;font-weight:900;letter-spacing:8px;}
 .breadcrums{margin-top:4px;}
 .breadcrums p{text-transform:uppercase;letter-spacing:2px;word-spacing:2px;}
+.breadcrumb a{font-family: Microsoft JhengHei;}
 
 
 /* PRELOADER */
@@ -1311,7 +1312,7 @@ hr {background:url("../images/line.png") no-repeat top left;height:10px;margin:0
 .sidebar .sidebar-category-widget-wrap{}
 .sidebar .sidebar-category-widget-wrap ul{margin:-5px 0;}
 .sidebar .sidebar-category-widget-wrap ul li{padding:5px 0;}
-.sidebar .sidebar-category-widget-wrap ul li a{display:block;text-align:left;position:relative;line-height:25px;text-transform:capitalize;color:#153eaf;font-size: 20px;}
+.sidebar .sidebar-category-widget-wrap ul li a{display:block;text-align:left;position:relative;line-height:25px;text-transform:capitalize;color: white; font-family: MEllan;font-size: 20px;}
 .sidebar .sidebar-category-widget-wrap ul li a span{display:inline-block;position:absolute;right:0;top:2px;}
 .sidebar .sidebar-category-widget-wrap ul li a i{display:inline-block;margin-right:10px;width:28px;height:28px;line-height:30px;border-radius:50%;text-align:center;font-size:12px;}
 ul#submenu1 li a{font-size:16px}
@@ -2150,6 +2151,7 @@ label.checkbox-lable{position:relative;top:-8px;color:#999;}
 	background:#eeeeee;
 	border-radius: 5px;
     border: 1px solid #d1d1d1;
+    font-family: Microsoft JhengHei;
 }	
 .order_notice ol ul{
 	text-align:left;
@@ -2241,18 +2243,31 @@ label.checkbox-lable{position:relative;top:-8px;color:#999;}
   }
 }
 .page_title {
-	color: #275bb9;
+        color: #ffcc00;
 	font-size:2em;
 	font-weight:bolder;
+        font-family: Microsoft JhengHei;
 }
+
+.page_title input[type=text] {
+        font-family: Microsoft JhengHei;
+}
+
+.map_contain .page_title {
+        margin-top: -1px;
+        padding: 5px;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 16%, rgba(0,212,255,1) 43%, rgba(255,255,255,1) 100%);
+}
+
 .login_contain {
 	background: rgb(255,255,255);
 }
 .map_contain {
-	background: rgb(255,255,255);
-    padding: 1px 0 20px;
-	overflow: hidden;
-	width:100%;
+        background: rgb(255,255,255);
+        padding: 1px 0 20px;
+        overflow: hidden;
+        width:100%;
 }
 .map_contain2 {
 	background: rgb(255,255,255);
@@ -2553,6 +2568,11 @@ notice {
     margin-right: auto;
   }
 }
+
+.box .nav a {
+    font-family: Microsoft JhengHei;
+}
+
 @media (min-width: 768px) {
 	.box .box-footer {
 	  margin: 20px auto;
