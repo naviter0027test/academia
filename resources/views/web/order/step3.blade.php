@@ -127,7 +127,7 @@
 												@if($data->status != '0')
 													訂單不成立
 												@else
-                                                   感謝您的訂購
+                                                   <!--感謝您的訂購-->
 												@endif
                                                 </text>
                                             </svg>
