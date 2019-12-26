@@ -14,8 +14,9 @@ h1,h2,h3,h4,h5,h6{
 	color:#444;
 	}
 p,a,span,ul,li{
-	color:rgb(123,104,238);
-	}
+    /*color:rgb(123,104,238);*/
+    color: black;
+}
 @media screen and (min-device-width:1024px){
 	body {
 	  background-image   : url("../../images/left.png"),
@@ -665,4 +666,4 @@ p,a,span,ul,li{
 .feature-field i{}
 .feature-field p{}
 
-#cartContent {color: rgb(123,104,238);}
+#cartContent {color: black;}

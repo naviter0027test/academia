@@ -56,7 +56,10 @@
 html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {
-	margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family:cwTeXFangSong;}
+	margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;
+        /*font-family:cwTeXFangSong;*/
+        font-family: Microsoft JhengHei;
+}
 
 html, body {
     min-height: 100% !important;
@@ -90,7 +93,8 @@ img{max-width:100%;margin: 0 auto;}
 	 TYPOGRAPHY 
 --------------------------------------------------------------------------------------------------------------------------------
 */
-body{font-family:'Montserrat',sans-serif,'cwTeXFangSong';}
+/*body{font-family:'Montserrat',sans-serif,'cwTeXFangSong';}*/
+body{font-family: Microsoft JhengHei;}
 h1,h2,h3,h4,h5,h6{
 	font-family:'cwTeXFangSong','Montserrat',sans-serif;
 	font-weight:700;
@@ -2153,6 +2157,9 @@ label.checkbox-lable{position:relative;top:-8px;color:#999;}
     border: 1px solid #d1d1d1;
     font-family: Microsoft JhengHei;
 }	
+.order_notice .red {
+    color: red;
+}
 .order_notice ol ul{
 	text-align:left;
 	font-size: 16px;

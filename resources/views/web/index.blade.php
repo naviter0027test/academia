@@ -120,7 +120,6 @@
                 <div class="row clearfix">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="footer-copyright">
-                            <p>注意事項!!</p>
                             <p></p>
                         </div>
                     </div>
